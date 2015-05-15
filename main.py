@@ -5,7 +5,7 @@ root.wm_title('Yancy\'s Editor v0.1')
 
 main_menu = Menu(root)
 
-f_menu = Menu(main_menu)    #在main_menu的基础上再创建Menu对象
+f_menu = Menu(main_menu)    # create a menu on main_menu
 for item in ['New', 'Open', 'Save']:
     f_menu.add_command(label = item)
 
